@@ -1,3 +1,5 @@
+require "pry"
+
 class Person
   attr_accessor :name, :candy_lover
 
@@ -9,7 +11,7 @@ class Person
   def tall?
     true
   end
-
+  
   def basketball_player?
     false
   end
@@ -26,4 +28,5 @@ class Person
         "not a ballin candy lover"
     end
   end
+end
 end
